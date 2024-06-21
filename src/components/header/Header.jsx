@@ -41,9 +41,11 @@ const Header = () => {
                             <p>ShowReall</p>
                             <p>ShowReall</p>
                         </div>
+                        <h2 className='text-[500px] text-[rgb(255,255,255,0.3)]'>uic</h2>
 
                     </div>
                 </div>
+
             </div>
         </div >
     )

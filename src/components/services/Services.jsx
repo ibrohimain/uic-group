@@ -14,7 +14,7 @@ const Services = () => {
                 </div>
                 <div className='grid grid-cols-2 gap-3 mt-[39px]'>
                     {servicesData.map((item, index) => (
-                        <div className='w-[600px] h-[200px] border rounded-[15px] bg-[rgba(51,51,51,0.5)] leading-6'>
+                        <div className='w-[600px] h-[200px] rounded-[15px] bg-[rgba(51,51,51,0.5)] leading-6'>
                             <h2 className='text-[34px] ml-[30px] mt-[50px] '>{item.name}</h2>
                             <p className='text-[16px] ml-[30px] mt-[20px] w-[60%] text-[rgba(210,209,209,0.5)] font-semibold'>{item.common_name}</p>
                         </div>

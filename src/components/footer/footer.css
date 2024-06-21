@@ -1,0 +1,34 @@
+.slider {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(141, 140, 140);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.slider:hover {
+    background-color: rgb(13, 186, 154);
+    border: 1px solid rgb(13, 186, 154);
+}
+
+form {
+    transition: 0.3s;
+
+    button {
+        transition: 0.3s;
+    }
+}
+
+form:hover {
+    border: 1px solid #60f1e0;
+
+    button {
+        background: #60f1e0;
+    }
+}

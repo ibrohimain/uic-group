@@ -8,20 +8,22 @@ import { CiPlay1 } from 'react-icons/ci'
 
 const Header = () => {
     return (
-        <div className='header_uic_img w-[100%] h-[100vh] mx-auto relative'>
-            <div className='w-[85%] h-[100px] mx-auto flex justify-between'>
-                <div className='w-[20%] h-[100%] flex items-center'>
-                    <img src={logo} alt="UIC Group logo" className='w-[150px] h-[140px] cursor-pointer' />
+        <div className='header_uic_img w-[100%] h-[100vh] mx-auto'>
+            <div className=' fixed z-50 bg-[rgba(83,82,82,0.1)] shadow-sm w-[100%]'>
+                <div className='w-[85%] h-[100px] mx-auto flex justify-between'>
+                    <div className='w-[20%] h-[100%] flex items-center'>
+                        <img src={logo} alt="UIC Group logo" className='w-[150px] h-[140px] cursor-pointer' />
+                    </div>
+                    <ul className='w-[75%] h-[100%] flex justify-between items-center'>
+                        <li className='list'>ABOUT US</li>
+                        <li className='list'>SERVICES</li>
+                        <li className='list'>PORTFOLIO</li>
+                        <li className='list'>CAREER</li>
+                        <li className='list'>BLOG</li>
+                        <li><h2>+998 71 <span className='text-white'>200 70 07</span></h2></li>
+                        <li><button className='w-[70px] h-[35px] border rounded-[10px] text-white font-semibold flex items-center justify-center gap-1'><GiEarthAmerica className='text-[20px]' /> EN</button></li>
+                    </ul>
                 </div>
-                <ul className='w-[75%] h-[100%] flex justify-between items-center'>
-                    <li className='list'>ABOUT US</li>
-                    <li className='list'>SERVICES</li>
-                    <li className='list'>PORTFOLIO</li>
-                    <li className='list'>CAREER</li>
-                    <li className='list'>BLOG</li>
-                    <li><h2>+998 71 <span className='text-white'>200 70 07</span></h2></li>
-                    <li><button className='w-[70px] h-[35px] border rounded-[10px] text-white font-semibold flex items-center justify-center gap-1'><GiEarthAmerica className='text-[20px]' /> EN</button></li>
-                </ul>
             </div>
             <div className='w-[100%] h-[450px] flex  uic_ice'>
             </div>

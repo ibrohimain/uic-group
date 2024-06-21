@@ -1,0 +1,48 @@
+.bg_box {
+    mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 100%);
+    -weblit-mask-image: linear-gradient(to botttom transparent, rgb(0, 0, 0) 100%);
+    position: absolute;
+    top: 0%;
+    width: 98%;
+    height: 100%;
+    z-index: 20;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.bg_boxs {
+    position: absolute;
+    top: 0%;
+    width: 98%;
+    height: 100%;
+    z-index: 20;
+    background-color: black;
+    border-radius: 10px;
+    mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 100%);
+    -weblit-mask-image: linear-gradient(to botttom transparent, rgb(0, 0, 0) 100%);
+}
+
+.bgas {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: black;
+    border-radius: 10px;
+    mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 100%);
+    -weblit-mask-image: linear-gradient(to botttom transparent, rgb(0, 0, 0) 100%);
+}
+
+.bgas:hover {
+    background: linear-gradient(45deg, rgba(0, 255, 174, 0.5), rgba(0, 255, 174, 0.5));
+}
+
+.bg_box:hover {
+    background: linear-gradient(45deg, rgba(0, 255, 174, 0.5), rgba(0, 255, 174, 0.5));
+}
+
+.buttonone:hover {
+    border-color: rgba(0, 255, 174, 0.5);
+    color: rgba(0, 255, 174, 0.5);
+}
